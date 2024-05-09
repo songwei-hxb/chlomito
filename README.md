@@ -93,7 +93,7 @@ docker pull songweidocker/chlomito:v1
 - **Identifying mitochondrial and chloroplast contigs from plant genome assemblies:**
 
   ```
-  nohup docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`:/data -w /data songweidocker/chlomito:v1  chlomito -species animal -raw_genome genome_contigs.fasta -NGS_1 ngs_1.fastq  -NGS_2 ngs_2.fastq -output  identify_result  -mito_ALCR_cutoff 0.1 -mito_SDR_cutoff 0.1 -chlo_ALCR_cutoff 0.1 -chlo_SDR_cutoff 0.1  -threads 60  &
+  nohup docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v `pwd`:/data -w /data songweidocker/chlomito:v1  chlomito -species plant -raw_genome genome_contigs.fasta -NGS_1 ngs_1.fastq  -NGS_2 ngs_2.fastq -output  identify_result  -mito_ALCR_cutoff 0.1 -mito_SDR_cutoff 0.1 -chlo_ALCR_cutoff 0.1 -chlo_SDR_cutoff 0.1  -threads 60  &
   ```
 
 
