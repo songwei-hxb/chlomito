@@ -107,7 +107,7 @@ Initial ALCR and SDR filtering thresholds may not always be optimal. To achieve 
 ## Test data
 (1) Third-generation sequencing contig-level genome assembly: [Prunus_salicina_contig_level_genome.fasta](https://osf.io/tkbrd/?view_only=037890b97335440d8360957905c19747)
 
-(2) Second-generation sequencing data: NCBI SRA database ([SRR10233497](https://www.ncbi.nlm.nih.gov/sra/SRX6952744[accn]))
+(2) Second-generation sequencing data (NCBI SRA database): [SRR10233497](https://www.ncbi.nlm.nih.gov/sra/SRX6952744[accn])
 
 
 # License
