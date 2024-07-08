@@ -104,7 +104,9 @@ docker pull songweidocker/chlomito:v1
 Initial ALCR and SDR filtering thresholds may not always be optimal. To achieve more accurate results, it is advisable to start with the lowest possible thresholds and analyze the scatter plot generated from the first run. Based on these findings, researchers can then select more appropriate ALCR and SDR cutoff values for filtering. By carefully examining the initial results and adjusting the filtering criteria accordingly, the methodology can be optimized to better suit the specific requirements of the study.
 
 
-
+## Test data
+(1) Third-generation sequencing contig-level genome assembly: Prunus_salicina_contig_level_genome.fasta [Link](https://osf.io/tkbrd/?view_only=037890b97335440d8360957905c19747)
+(2) Second-generation sequencing data: NCBI SRA database (SRR10233497 [Link](https://www.ncbi.nlm.nih.gov/sra/SRX6952744[accn]))
 
 
 # License
